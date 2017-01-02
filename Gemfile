@@ -21,6 +21,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'paperclip', '~> 5.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'devise', '~> 4.2'
+gem 'aws-sdk', '~> 2.6', '>= 2.6.43'
 
 group :development, :test do
   gem 'byebug', platform: :mri
