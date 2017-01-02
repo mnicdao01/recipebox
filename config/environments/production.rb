@@ -84,6 +84,10 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  # Devise
+
+  config.action_mailer.default_url_options = { host: 'https://recipeboxv1.herokuapp.com/' }
+
   #Heroku S3
 
   config.paperclip_defaults = {
