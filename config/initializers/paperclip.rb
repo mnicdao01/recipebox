@@ -1,1 +1,1 @@
-Paperclip::Attachment.default_options[:url] = 'http://recipeboxv1.s3.amazonaws.com/'
+aperclip::Attachment.default_options[:s3_host_name] = 'recipeboxv1.s3.amazonaws.com'
