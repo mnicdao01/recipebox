@@ -55,4 +55,18 @@ Rails.application.configure do
   # For devise
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  #For S3 Test
+
+  config.paperclip_defaults = {
+  storage: :s3,
+  s3_credentials: {
+    bucket: "recipeboxv1",
+    access_key_id: "AKIAJ3E7JJFDNDNREFFQ",
+    secret_access_key: "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",
+    s3_region: "ap-southeast-1",
+    s3_url: :s3_url,
+    path: :path
+  }
+}
 end
