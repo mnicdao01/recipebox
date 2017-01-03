@@ -1,8 +1,8 @@
 class Recipe < ApplicationRecord
 	belongs_to :user
 
-	has_many :ingredients
-	has_many :directions
+	has_many :ingredients, :dependent => :destroy
+	has_many :directions, :dependent => :destroy
 
 
 	has_attached_file :image, styles: { large: "600x600#", medium: "300x300#", thumb: "100x100#" }
