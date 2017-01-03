@@ -87,7 +87,7 @@ Rails.application.configure do
   # Devise
 
   config.action_mailer.default_url_options = { host: 'https://recipeboxv1.herokuapp.com/' }
-
+  config.assets.initialize_on_precompile = false
   #Heroku S3
 
   config.paperclip_defaults = {
