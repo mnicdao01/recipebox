@@ -131,3 +131,24 @@ body {
 .add-button {
 	margin-top: 25px;
 }
+
+.user_remember_me {
+	label {
+  display: block;
+  padding-left: 20px;
+  text-indent: -5px;
+	}
+		input {
+		  width: 13px;
+		  height: 13px;
+		  padding: 0;
+		  margin:0;
+		  vertical-align: bottom;
+		  position: relative;
+		  top: 5px;
+		  *overflow: hidden;
+		}
+
+
+}
+
