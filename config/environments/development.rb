@@ -65,7 +65,7 @@ Rails.application.configure do
     access_key_id: "AKIAJ3E7JJFDNDNREFFQ",
     secret_access_key: "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",
     s3_region: "ap-southeast-1",
-    s3_url: :s3_host_name,
+    url: :s3_host_name,
     s3_host_name: :s3_host_name,
     path: :path,
   }
